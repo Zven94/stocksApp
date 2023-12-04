@@ -1,4 +1,75 @@
 main {
-  height: 200vh;
-  background-color: #5788e4;
+  height: 100vh;
+  /* background-color: #5788e4; */
+  background-color: #383838;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-with-background {
+  background-image: url('../assets/1308322.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.main-with-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.57);
+}
+
+.stock-container {
+  width: 95vh;
+  height: 45vw;
+  /* border: 1px solid greenyellow; */
+  border-radius: 15px;
+  box-shadow: 0px 0px 65px 25px rgb(38, 69, 104);
+}
+
+.title-container {
+  height: 6rem;
+}
+
+.h2-editor {
+  z-index: 1;
+  color: white;
+}
+
+.card-with-background {
+  width: 15rem;
+  height: 10rem;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 20px;
+  /* box-shadow: 0px 0px 40px 5px rgb(51, 51, 51); */
+  background-color: transparent;
+  z-index: 1;
+  color: #fff;
+}
+.card-with-background:hover {
+  box-shadow: 0px 0px 40px 5px rgb(111, 125, 172);
+}
+
+.index-button {
+  width: 125px;
+  height: 35px;
+  padding-top: 10px;
+  /* background-color: #fff; */
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background: linear-gradient(transparent 16%, pink);
+  color: #fff;
+  border-radius: 15px;
+}
+
+.pTagcontenedor {
+  margin: 10px;
+  /* background-color: #39495e; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align:  center;
 }

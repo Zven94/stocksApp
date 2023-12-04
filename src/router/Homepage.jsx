@@ -5,7 +5,7 @@ import DisplayStocks from '../components/displayData/displayStocks';
 
 export default function Homepage() {
   return (
-    <main className="mi-contenedor-con-max-width">
+    <main className="main-with-background mi-contenedor-con-max-width">
       <Col className="justify-content-center">
         <Navbar />
         <DisplayStocks />
