@@ -11,21 +11,28 @@ import reportWebVitals from './reportWebVitals';
 import Homepage from './router/Homepage';
 import Detailpage from './router/Detailpage';
 import Intro from './router/Intropage';
+import CommingSoon from './router/CoomingSoonPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Homepage />,
+    // element: <Homepage />,
+    element: <Intro />,
   },
   {
     path: '/detail/:symbol/:name/:price/:change/:dayLow/:dayHigh/:marketCap/:volume/:exchange',
     element: <Detailpage />,
   },
   {
-    path: '/intropage',
-    element: <Intro />,
+    path: '/homepage',
+    // element: <Intro />,
+    element: <Homepage />,
+  },
+  {
+    path: '/coomingsoon',
+    element: <CommingSoon />,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
