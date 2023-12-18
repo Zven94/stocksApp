@@ -1,0 +1,31 @@
+.pDetail {
+  width: 29vw;
+  height: 5.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1.5rem;
+  border-radius: 8rem 0rem 15rem 8rem;
+  /* box-shadow: 10px 10px 15px -10px #000,
+    -10px -10px 15px -10px #f0f0f0,
+    inset 15px 15px 15px -15px #000,
+    inset -10px -10px 15px -15px #f0f0f0; */
+  box-shadow: 10px 10px 15px -10px #000,
+    -10px -10px 15px -10px #f0f0f0,
+    inset 15px 15px 15px -15px #000,
+    inset -10px -10px 15px -15px #f0f0f0;
+}
+
+.closeButton {
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  color: #fff;
+  font-size: 2.25rem;
+  border-radius: 1.25rem;
+  background-color: rgba(255, 255, 255, 0.20);
+  box-shadow: 10px 10px 15px -10px #000,
+    -10px -10px 15px -10px #f0f0f0,
+    inset 15px 15px 15px -15px #000,
+    inset -10px -10px 15px -15px #f0f0f0;
+}
