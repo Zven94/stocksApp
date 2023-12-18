@@ -6,10 +6,69 @@
   background-color: #4369b2;
 }
 
+main {
+  height: 100vh;
+  /* background-color: #5788e4; */
+  background-color: #383838;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.80rem;
+}
+
+.first-column {
+  width: 20%;
+}
+
+.second-column {
+  width: 20%;
+}
+
 .stocks-btn {
   background-color: transparent;
   width: 100%;
-  height: 5rem;
+  height: 2.575rem;
   color: #fff;
   border: 0;
+}
+
+.search-container {
+  width: 15rem;
+  position: relative;
+  display: inline-block;
+}
+
+.search-icon {
+  margin-right: 1rem;
+  position: relative;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: #fff;
+}
+
+.search-icon::after .search-icon {
+  height: 10rem;
+}
+
+@keyframes extend {
+  from {width: 0;}
+  to {width: 100%;}
+}
+
+.search-input[type="text"] {
+  position: relative;
+  animation-duration: 2s;
+}
+
+.search-container:hover .search-input[type="text"] {
+  animation-name: extend;
+}
+
+.list-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-group-item {
+  width: 20vh;
 }
