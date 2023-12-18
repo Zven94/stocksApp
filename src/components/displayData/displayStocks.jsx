@@ -156,7 +156,7 @@ export default function DisplayStocks() {
                       {' '}
                       Views:
                       {' '}
-                      {newIndex}
+                      {stock.views}
                     </button>
                   </Link>
                 </li>
