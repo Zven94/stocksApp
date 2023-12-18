@@ -10,7 +10,9 @@ import configureStore from './redux/configureStore';
 import reportWebVitals from './reportWebVitals';
 import Homepage from './router/Homepage';
 import Detailpage from './router/Detailpage';
+import Intro from './router/Intropage';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: '/detail/:symbol/:name/:price/:change/:dayLow/:dayHigh/:marketCap/:volume/:exchange',
     element: <Detailpage />,
+  },
+  {
+    path: '/intropage',
+    element: <Intro />,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
