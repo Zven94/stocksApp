@@ -1,0 +1,9 @@
+.spinner-grow {
+  position: absolute;
+  left: 45%;
+  color: #fff;
+
+  .h1-spinner {
+    font-size: 1.8rem;
+  }
+}
