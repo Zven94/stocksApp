@@ -6,8 +6,7 @@ import Navbar from '../components/NavElement/NavElement';
 export default function CommingSoon() {
   return (
     <main className="main-with-background mi-contenedor-con-max-width">
-      <Col className="justify-content-center">
-        <Navbar />
+      <Col className="justify-content-center p-0">
         <main className="main-with-background">
           <Navbar />
           <Container
