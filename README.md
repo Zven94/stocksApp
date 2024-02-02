@@ -60,7 +60,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click [here](https://react-capstone-h4jz.onrender.com)
+Click [here](https://stockapp-xcvm.onrender.com/)
 
 ## Presentation
 
